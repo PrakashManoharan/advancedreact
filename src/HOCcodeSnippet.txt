@@ -1,0 +1,14 @@
+import React from "react";
+
+function HOC(OrginalComponent, data)
+ {
+    return class extends React.Component{
+        render() {
+            return(
+                <OrginalComponent />
+                            )
+    }
+    }
+ }
+
+ export default HOC;
